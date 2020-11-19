@@ -25,7 +25,6 @@
 <!--</html>-->
 <!doctype html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thyme leaf.org/extras/spring-security" lang="en">
-<link rel="stylesheet" type='text/css' th:href="@{/style.css}">
 
 <head>
 
@@ -42,19 +41,21 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
     <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
 
     <!--====== Line Icons css ======-->
-    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <link rel="stylesheet" type='text/css' th:href="@{/Lineicons.css}">
 
     <!--====== Magnific Popup css ======-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" type='text/css' th:href="@{/magnific-popup.css}">
 
     <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/default.css">
 
     <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css">
+<!--    <link rel="stylesheet" type='text/css' th:href="@{/style.css}">-->
+
+    <link rel="stylesheet" type='text/css' th:href="@{/slick.css}">
 
 
 </head>
@@ -62,7 +63,7 @@
 <body>
 
 <!--====== PRELOADER PART START ======-->
-
+<h2>HELLO AGAIN</h2>
 <div class="preloader">
     <div class="loader_34">
         <div class="ytp-spinner">
