@@ -8,6 +8,6 @@ public class home {
 
     @GetMapping("/")
     public String mandoHome(){
-        return "mando-codes";
+        return "index";
     }
 }
