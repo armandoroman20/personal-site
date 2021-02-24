@@ -1,9 +1,9 @@
-body,html {
+body, html {
     height: 100%;
     margin: 0;
 }
 
-.bg{
+.bg {
     background-image: url(/images/dev-setup.jpg);
 
     /* Full height */
@@ -16,33 +16,49 @@ body,html {
 }
 
 
-.container{
+.container {
     height: 90%;
     align-content: center;
 }
 
-.card{
+.card {
     height: 370px;
     margin-top: 25%;
     margin-bottom: 25%;
     width: 600px;
-    background-color: rgba(0,0,0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .card-body {
-    /*margin-top: 20%;*/
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%
+    margin-top: 10%;
 }
 
 /*mobile css*/
+
+.mobile-italic-text {
+    /*margin-top: 10vh;*/
+}
+
+.mobile-card-body {
+    height: 100vh;
+    margin-top: 10vh;
+}
 
 .mobile-about {
     font-family: "Nunito", sans-serif;
     text-align: center
 }
 
+.mobile-card {
+    /*height: 370px];*/
+    height: 50vh;
+    margin-top: 25vh;
+    /*margin-bottom: 25%;*/
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
 
 
 
