@@ -23,16 +23,17 @@ body, html {
 
 .card {
     height: 370px;
-    margin-top: 25%;
     margin-bottom: 25%;
     width: 600px;
     background-color: rgba(0, 0, 0, 0.6) !important;
+    margin-top: 25vh
 }
 
 .card-body {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+    height: 100vh;
 }
 
 /*mobile css*/
