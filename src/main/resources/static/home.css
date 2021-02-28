@@ -21,7 +21,7 @@ body, html {
     align-content: center;
 }
 
-.card {
+.greeting-card {
     height: 370px;
     margin-bottom: 25%;
     width: 600px;
@@ -61,7 +61,11 @@ body, html {
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-
+.mobile-contact-card{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+}
 
 
 
